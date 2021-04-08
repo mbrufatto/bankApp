@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61982C2E2615677400C24342 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61982C2D2615677400C24342 /* Account.swift */; };
-		61982C312615695100C24342 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61982C302615695100C24342 /* AccountService.swift */; };
-		61982C3426156E6B00C24342 /* AccountSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61982C3326156E6B00C24342 /* AccountSummaryViewModel.swift */; };
-		61982C3726161B8300C24342 /* AccountSummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61982C3626161B8300C24342 /* AccountSummaryScreen.swift */; };
-		61982C3C26161E3800C24342 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61982C3B26161E3800C24342 /* AccountListView.swift */; };
+		6171B939261F462300C01D45 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171B938261F462300C01D45 /* Account.swift */; };
+		6171B93C261F466500C01D45 /* AccountSummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171B93B261F466500C01D45 /* AccountSummaryScreen.swift */; };
+		6171B93F261F468900C01D45 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171B93E261F468900C01D45 /* AccountListView.swift */; };
+		6171B942261F46A700C01D45 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171B941261F46A700C01D45 /* AccountService.swift */; };
+		6171B945261F46C700C01D45 /* AccountSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171B944261F46C700C01D45 /* AccountSummaryViewModel.swift */; };
 		619FCBB2261B64ED00119D7E /* CreateAccountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619FCBB1261B64ED00119D7E /* CreateAccountRequest.swift */; };
 		619FCBB5261B65B000119D7E /* CreateAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619FCBB4261B65B000119D7E /* CreateAccountResponse.swift */; };
 		619FCBB8261B7EB300119D7E /* AddAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619FCBB7261B7EB300119D7E /* AddAccountViewModel.swift */; };
@@ -32,11 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61982C2D2615677400C24342 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Account.swift; path = ../../../Account.swift; sourceTree = "<group>"; };
-		61982C302615695100C24342 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountService.swift; path = ../../../AccountService.swift; sourceTree = "<group>"; };
-		61982C3326156E6B00C24342 /* AccountSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountSummaryViewModel.swift; path = ../../../AccountSummaryViewModel.swift; sourceTree = "<group>"; };
-		61982C3626161B8300C24342 /* AccountSummaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountSummaryScreen.swift; path = ../../../AccountSummaryScreen.swift; sourceTree = "<group>"; };
-		61982C3B26161E3800C24342 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountListView.swift; path = ../../../AccountListView.swift; sourceTree = "<group>"; };
+		6171B938261F462300C01D45 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		6171B93B261F466500C01D45 /* AccountSummaryScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSummaryScreen.swift; sourceTree = "<group>"; };
+		6171B93E261F468900C01D45 /* AccountListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		6171B941261F46A700C01D45 /* AccountService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		6171B944261F46C700C01D45 /* AccountSummaryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewModel.swift; sourceTree = "<group>"; };
 		619FCBB1261B64ED00119D7E /* CreateAccountRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountRequest.swift; sourceTree = "<group>"; };
 		619FCBB4261B65B000119D7E /* CreateAccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountResponse.swift; sourceTree = "<group>"; };
 		619FCBB7261B7EB300119D7E /* AddAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewModel.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		8D40C33D24E1C4C30040822F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				61982C2D2615677400C24342 /* Account.swift */,
+				6171B938261F462300C01D45 /* Account.swift */,
 				619FCBB1261B64ED00119D7E /* CreateAccountRequest.swift */,
 				619FCBB4261B65B000119D7E /* CreateAccountResponse.swift */,
 				619FCBBD261B948D00119D7E /* TransferFundRequest.swift */,
@@ -137,7 +137,7 @@
 		8D40C33E24E1C4C90040822F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				61982C3626161B8300C24342 /* AccountSummaryScreen.swift */,
+				6171B93B261F466500C01D45 /* AccountSummaryScreen.swift */,
 				619FCBBA261B843B00119D7E /* AddAccountScreen.swift */,
 				619FCBC8261CA5FA00119D7E /* TransferFundsScreen.swift */,
 			);
@@ -147,7 +147,7 @@
 		8D40C33F24E1C4CE0040822F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				61982C3B26161E3800C24342 /* AccountListView.swift */,
+				6171B93E261F468900C01D45 /* AccountListView.swift */,
 				619FCBCD261E0A8900119D7E /* TransferFundsAccountSelectionView.swift */,
 			);
 			path = Views;
@@ -156,7 +156,7 @@
 		8D40C34024E1C4D20040822F /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				61982C302615695100C24342 /* AccountService.swift */,
+				6171B941261F46A700C01D45 /* AccountService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 		8D40C34124E1C4D80040822F /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				61982C3326156E6B00C24342 /* AccountSummaryViewModel.swift */,
+				6171B944261F46C700C01D45 /* AccountSummaryViewModel.swift */,
 				619FCBB7261B7EB300119D7E /* AddAccountViewModel.swift */,
 				619FCBC5261CA3F400119D7E /* TransferFundsViewModel.swift */,
 			);
@@ -247,19 +247,19 @@
 				8D40C32324E1C4080040822F /* AppDelegate.swift in Sources */,
 				8D40C33A24E1C4640040822F /* URL+Extensions.swift in Sources */,
 				619FCBB8261B7EB300119D7E /* AddAccountViewModel.swift in Sources */,
+				6171B93F261F468900C01D45 /* AccountListView.swift in Sources */,
 				619FCBBE261B948D00119D7E /* TransferFundRequest.swift in Sources */,
 				8D40C32524E1C4080040822F /* SceneDelegate.swift in Sources */,
 				619FCBC3261B95FD00119D7E /* TransferFundResponse.swift in Sources */,
-				61982C3C26161E3800C24342 /* AccountListView.swift in Sources */,
 				8D40C33C24E1C4820040822F /* View+Extensions.swift in Sources */,
+				6171B942261F46A700C01D45 /* AccountService.swift in Sources */,
+				6171B93C261F466500C01D45 /* AccountSummaryScreen.swift in Sources */,
 				619FCBB5261B65B000119D7E /* CreateAccountResponse.swift in Sources */,
-				61982C3426156E6B00C24342 /* AccountSummaryViewModel.swift in Sources */,
+				6171B945261F46C700C01D45 /* AccountSummaryViewModel.swift in Sources */,
 				619FCBBB261B843B00119D7E /* AddAccountScreen.swift in Sources */,
-				61982C3726161B8300C24342 /* AccountSummaryScreen.swift in Sources */,
 				619FCBCE261E0A8A00119D7E /* TransferFundsAccountSelectionView.swift in Sources */,
 				619FCBB2261B64ED00119D7E /* CreateAccountRequest.swift in Sources */,
-				61982C312615695100C24342 /* AccountService.swift in Sources */,
-				61982C2E2615677400C24342 /* Account.swift in Sources */,
+				6171B939261F462300C01D45 /* Account.swift in Sources */,
 				619FCBC9261CA5FA00119D7E /* TransferFundsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
